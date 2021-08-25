@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="text/css" rel="stylesheet" href="Style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Music Blog</title>
+    <!--
+        Holds metadata / information we dont see
+            - links, viewport info, document title, etc.
+    - - >
+    <!-- 3 ways to use CSS with our doc:
+        1. Embed the CSS within a <style> tag.
+        2. Inline styling within another element. 
+        3. Link a styleshet to our HTML document. -->
+        <style>
+            body {
+                background-color: blueviolet;
+            }
+        </style>
+</head>
+<body style="background-color: brown;">
+    
+    <header>
+        <h1>Music Blog</h1>
+
+            <nav>
+
+                <ul>
+                    <li><span>Home</span></li>
+                    <li><a href="#">Get Started</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Forum</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section>
+        <h2>Welcome, remember ach-two is an informal title </h2>
+        <!-- Main specifies the main content Keep the notes clean with these tabs and spaces
+        There can be only one!
+        Cannot be contained or a descendant (child) of 
+             - header, nav, article, aside, footer, Think of it like matrishka dolls-->
+
+        <main>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est beatae alias numquam, quam officiis natus debitis consectetur ut, iusto reprehenderit recusandae fuga cumque id ipsa libero provident velit. Quos, doloremque!
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt perferendis consequatur eligendi voluptatem impedit, repellat temporibus, magnam odio sed expedita! Delectus odio reprehenderit commodi quidem temporibus quod distinctio. Quam.
+                </p>
+            </article>
+
+            <aside>
+                <h2>Favorite Albums</h2>
+                <a target='_blank' href='./3-assets/w2b9um4ogwabb_600.jpeg'>img src="./3-assets/w2b9um4ogwabb_600" alt="The Lord of the Rings"</a>
+                <a target='_blank' href='./3-assets/3565.jpeg'>img src="./3-assets/3564.jpeg" alt="Boston"</a>
+                <a target='_blank' href='./3-assets/50042bf65318a14becc095be2ae3bb80.1000x1000x1.jpg'>img src="./3-assets/50042bf65318a14becc095be2ae3bb80.1000x1000x1.jpg" alt="Tickets To my Downfall"</a>
+                <a target='_blank' href='./3-assets/51mkCmpzwUL._AC_.jpg'>img src="./3-assets/51mkCmpzwUL._AC_.jpg" alt="Man on the Moon"</a>
+            </aside>
+        </main>
+    </section>
+    
+    <!-- Footers can contain: authorship info, copyright, contact info, a sitemap, back to top line-->
+    <footer>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus neque qui aperiam quod corporis, ex velit nesciunt illum vitae soluta fugit modi porro? Distinctio exercitationem sint in veritatis quam sequi! 2021 by Eric Cartman</p>
+    </footer>
+
+</body>
+</html>
